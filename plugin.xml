@@ -72,6 +72,9 @@
     <source-file src="lib/android/servlet-2-3.jar" target-dir="libs"/>
     <source-file src="lib/android/stateless4j-2.4.0.jar" target-dir="libs"/>
     <source-file src="lib/android/webserver-2-3.jar" target-dir="libs"/>
+    <lib-file src="lib/android/jdeferred-core-1.2.4.jar" />
+    <lib-file src="lib/android/slf4j-api-1.7.2.jar" />
+
 
     <framework src="src/android/cblite.gradle" custom="true" type="gradleReference" />
   </platform>
